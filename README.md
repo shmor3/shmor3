@@ -5,10 +5,11 @@
   <img src="assets/banner-light.svg" width="100%" alt="shmor3 — systems engineer">
 </picture>
 
-Most of what I build comes down to coordination: many small programs behaving
-like one reliable system. Right now that's an agent runtime in Rust, with its
-own small language, a scheduler, and a plugin layer that speaks MCP and ACP so
-tools and models can attach without bespoke glue.
+Whole ecosystems, mostly in Rust: an agent-orchestration platform, the fleet
+of services around it, the SDKs and CLIs, and the inference engines underneath.
+
+Lead engineer on <a href="https://simse.dev">simse</a>. Runtimes, build systems,
+and the occasional shipped product on the side.
 
 The parts I care about are the ones you only notice when they're missing —
 isolation, clean scheduling, failure you can reason about.

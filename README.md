@@ -1,26 +1,16 @@
-<p align="center">
-  <img src="assets/header.svg" width="820" alt="shmor3 — systems engineer" />
-</p>
+<!-- the banner is two hand-written SVGs (light/dark). no widgets, nothing phones home. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-light.svg" width="100%" alt="shmor3 — systems engineer">
+</picture>
 
-<br/>
+Most of what I build comes down to coordination: many small programs behaving
+like one reliable system. Right now that's an agent runtime in Rust, with its
+own small language, a scheduler, and a plugin layer that speaks MCP and ACP so
+tools and models can attach without bespoke glue.
 
-I build the substrate other software runs on — runtimes, schedulers, and the
-protocols that let independent pieces cooperate without knowing about each other.
-
-Lately that means turning AI agents from demos into systems. Not another wrapper
-around a model, but the layer underneath: a runtime with its own small language,
-a scheduler that decides what runs where, and a plugin model where tools and
-models attach over open protocols like MCP and ACP. The hard part was never the
-model — it's orchestration, isolation, and failure: making a dozen moving parts
-behave like one program you can actually reason about.
-
-I'm a platform person more than an app person. I care about the layer that has to
-be correct so everything above it is free to be careless. I'd rather understand
-one system completely than wire five together and hope.
-
-<br/>
-
-**Mostly Rust** — reached for when correctness and control matter more than
-moving fast. Go, TypeScript, and Python when the job asks for them.
+The parts I care about are the ones you only notice when they're missing —
+isolation, clean scheduling, failure you can reason about.
 
 <sub>Cambridge, MA · <a href="https://rstanford.com">rstanford.com</a></sub>

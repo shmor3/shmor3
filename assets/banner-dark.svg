@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t">
+  <title id="t">shmor3 — systems engineer</title>
+
+  <!-- mark: three layers; the bottom one is the point -->
+  <rect x="63" y="92" width="30" height="5" rx="2.5" fill="#3d444d" opacity="0.55"/>
+  <rect x="63" y="101" width="30" height="5" rx="2.5" fill="#3d444d" opacity="0.85"/>
+  <rect x="63" y="110" width="30" height="5" rx="2.5" fill="#e3b341"/>
+
+  <text x="60" y="180" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-1.5" fill="#e6edf3">shmor3</text>
+  <text x="64" y="216" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="4" fill="#9198a1">SYSTEMS ENGINEER</text>
+
+  <!-- a small dependency graph; the pulses are work moving through it -->
+  <g stroke="#30363d" stroke-width="1.25" stroke-linecap="round">
+    <line x1="620" y1="150" x2="748" y2="78"/>
+    <line x1="620" y1="150" x2="760" y2="216"/>
+    <line x1="748" y1="78"  x2="900" y2="150"/>
+    <line x1="760" y1="216" x2="900" y2="150"/>
+    <line x1="900" y1="150" x2="1052" y2="92"/>
+    <line x1="900" y1="150" x2="1024" y2="224"/>
+    <line x1="748" y1="78"  x2="1052" y2="92"/>
+    <line x1="1052" y1="92" x2="1140" y2="150"/>
+    <line x1="1024" y1="224" x2="1140" y2="150"/>
+  </g>
+  <g fill="#484f58">
+    <circle cx="620"  cy="150" r="4.5"/>
+    <circle cx="748"  cy="78"  r="4.5"/>
+    <circle cx="760"  cy="216" r="4.5"/>
+    <circle cx="900"  cy="150" r="4.5"/>
+    <circle cx="1052" cy="92"  r="4.5"/>
+    <circle cx="1024" cy="224" r="4.5"/>
+    <circle cx="1140" cy="150" r="4.5"/>
+  </g>
+
+  <!-- three dispatches per 9s cycle, each along a different route -->
+  <circle r="3" fill="#e3b341" opacity="0">
+    <animateMotion path="M620,150 L748,78 L900,150 L1024,224 L1140,150" dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0444;0.3333;1"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0444;0.0611;0.3166;0.3333;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#e3b341" opacity="0">
+    <animateMotion path="M620,150 L760,216 L900,150 L1052,92 L1140,150" dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3778;0.6667;1"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3778;0.3944;0.65;0.6667;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#e3b341" opacity="0">
+    <animateMotion path="M748,78 L1052,92 L1140,150" dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7333;0.9111;1"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7333;0.75;0.8944;0.9111;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+</svg>

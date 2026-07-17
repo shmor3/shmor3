@@ -5,8 +5,4 @@
   <img src="assets/banner-light.svg" width="100%" alt="shmor3 — AI &amp; systems engineer">
 </picture>
 
-I build AI infrastructure in Rust. Orchestration, model serving, and the
-small services that keep everything standing. I like software that's boring
-on purpose and fails in ways you can explain.
-
-Nights and weekends go to runtimes and build tools.
+I build the infrastructure AI runs on, in Rust, and I like it boring.

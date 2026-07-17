@@ -5,4 +5,4 @@
   <img src="assets/banner-light.svg" width="100%" alt="shmor3 — AI &amp; systems engineer">
 </picture>
 
-I build AI systems, top to bottom.
+I build AI systems for a living, and for fun.

@@ -5,4 +5,4 @@
   <img src="assets/banner-light.svg" width="100%" alt="shmor3 — AI &amp; systems engineer">
 </picture>
 
-I build the infrastructure AI runs on, in Rust, and I like it boring.
+I build everything between the GPU and the user, in Rust.

@@ -9,6 +9,6 @@ I build AI infrastructure in Rust. Orchestration, model serving, and the
 small services that keep everything standing. I like software that's boring
 on purpose and fails in ways you can explain.
 
-Nights and weekends go to runtimes and build tools. Apparently I have a type.
+Nights and weekends go to runtimes and build tools.
 
 <sub>Cambridge, MA · <a href="https://rstanford.com">rstanford.com</a></sub>

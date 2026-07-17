@@ -10,5 +10,3 @@ small services that keep everything standing. I like software that's boring
 on purpose and fails in ways you can explain.
 
 Nights and weekends go to runtimes and build tools.
-
-<sub>Cambridge, MA · <a href="https://rstanford.com">rstanford.com</a></sub>

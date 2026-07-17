@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 220" width="820" height="220" role="img" aria-label="shmor3 — systems engineer">
+  <rect x="1" y="1" width="818" height="218" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- window chrome -->
+  <circle cx="34" cy="34" r="6" fill="#ff5f56"/>
+  <circle cx="56" cy="34" r="6" fill="#febc2e"/>
+  <circle cx="78" cy="34" r="6" fill="#28c840"/>
+  <text x="410" y="39" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6e7681">shmor3 — zsh — ~</text>
+  <line x1="1" y1="58" x2="819" y2="58" stroke="#21262d" stroke-width="1"/>
+
+  <!-- prompt -->
+  <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17">
+    <tspan x="32" y="102" fill="#7ee787">$ </tspan><tspan fill="#c9d1d9">whoami</tspan>
+  </text>
+
+  <text x="32" y="148" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <tspan font-size="31" font-weight="700" fill="#58a6ff">shmor3</tspan><tspan font-size="19" fill="#8b949e">  ·  systems engineer</tspan>
+  </text>
+
+  <text x="32" y="192" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16">
+    <tspan fill="#6e7681"># rust · runtimes · agent orchestration</tspan><tspan dx="6" fill="#7ee787">▋<animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/></tspan>
+  </text>
+</svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t">
-  <title id="t">shmor3 — systems engineer</title>
+  <title id="t">shmor3 — AI &amp; systems engineer</title>
 
   <!-- mark: three layers; the bottom one is the point -->
   <rect x="63" y="92" width="30" height="5" rx="2.5" fill="#d0d7de" opacity="0.75"/>
@@ -7,7 +7,7 @@
   <rect x="63" y="110" width="30" height="5" rx="2.5" fill="#9a6700"/>
 
   <text x="60" y="180" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-1.5" fill="#1f2328">shmor3</text>
-  <text x="64" y="216" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="4" fill="#57606a">SYSTEMS ENGINEER</text>
+  <text x="64" y="216" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="4" fill="#57606a">AI &amp; SYSTEMS ENGINEER</text>
 
   <!-- a small dependency graph; the pulses are work moving through it -->
   <g stroke="#d0d7de" stroke-width="1.25" stroke-linecap="round">

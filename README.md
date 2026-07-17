@@ -5,13 +5,10 @@
   <img src="assets/banner-light.svg" width="100%" alt="shmor3 — AI &amp; systems engineer">
 </picture>
 
-Whole ecosystems, mostly in Rust: an agent-orchestration platform, the fleet
-of services around it, the SDKs and CLIs, and the inference engines underneath.
+I build AI infrastructure in Rust. Orchestration, model serving, and the
+small services that keep everything standing. I like software that's boring
+on purpose and fails in ways you can explain.
 
-Lead engineer on <a href="https://simse.dev">simse</a>. Runtimes, build systems,
-and the occasional shipped product on the side.
-
-The parts I care about are the ones you only notice when they're missing —
-isolation, clean scheduling, failure you can reason about.
+Nights and weekends go to runtimes and build tools. Apparently I have a type.
 
 <sub>Cambridge, MA · <a href="https://rstanford.com">rstanford.com</a></sub>
